@@ -1,0 +1,24 @@
+{
+    "name": "beganovich/wordman",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin Beganović",
+            "email": "k1pstabug@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    },
+    "require": {
+        "react/http": "^1.9",
+        "fakerphp/faker": "^1.23"
+    }
+}
