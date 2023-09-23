@@ -8,7 +8,7 @@ use React\Http\Message\Response;
 
 class PostsController
 {
-    public static function index(Context $context, ServerRequestInterface $request): Response
+    public function index(Context $context, ServerRequestInterface $request): Response
     {
         $posts = [];
 
